@@ -16,6 +16,8 @@ const router  = new vue_router({
 })
 
 new vue({
+	//this is same as $mount('#app')
+	//el:"#app"
 	router,
 	store
 }).$mount('#app')
