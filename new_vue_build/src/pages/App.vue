@@ -10,7 +10,7 @@
 	}
 </style>
 <template>
-	<div>
+	<div id="root">
 		<h1 @click="change">{{header}}</h1>
 		<router-view></router-view>
 		<h1>{{footer}}</h1>

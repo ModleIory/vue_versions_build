@@ -16,6 +16,7 @@ const router = new vue_router({
 
 router.map(routes)
 
+//这里是用App组件来替换app了,怪不得和新的不一样,新的直接是拼接上去
 router.start(App,'#app')
 
 router.redirect({

@@ -1,5 +1,13 @@
 # vue-cli
 
+# install vue-cli 
+	npm install -g vue-cli
+
+# init my project
+	```
+	vue init webpack Myname
+	```
+
 > auto build 
 
 ## Build Setup

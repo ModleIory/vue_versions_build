@@ -2,7 +2,7 @@
 	
 </style>
 <template>
-	<div>
+	<div id='imgShow'>
 		<h1 v-touch:tap="warn">{{title}}</h1>
 		<img-one></img-one>
 		<img-two></img-two>
